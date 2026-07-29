@@ -1,0 +1,59 @@
+/* ── Couleurs ENSIMAG / INP ───────────────────────────────── */
+:root {
+  --md-primary-fg-color: #00897b;       /* teal ENSIMAG */
+  --md-accent-fg-color:  #ff6e40;       /* deep orange */
+}
+
+/* ── Bannière d'accueil ───────────────────────────────────── */
+.hero-banner {
+  background: linear-gradient(135deg, #00897b 0%, #004d40 100%);
+  color: #fff;
+  padding: 3rem 2rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.hero-banner h1 {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0 0 0.5rem;
+}
+
+.hero-banner p {
+  margin: 0;
+  opacity: 0.9;
+  font-size: 1.1rem;
+}
+
+/* ── Cards de navigation rapide ─────────────────────────────── */
+.nav-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.nav-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5rem;
+  padding: 1.25rem 1rem;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: box-shadow 0.2s, border-color 0.2s;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.nav-card:hover {
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 2px 12px rgba(0,137,123,0.15);
+}
+
+.nav-card .card-icon { font-size: 1.8rem; }
+.nav-card .card-title { font-weight: 600; font-size: 1rem; }
+.nav-card .card-desc  { font-size: 0.85rem; opacity: 0.75; }
+
+/* ── Ajustement admonitions ──────────────────────────────── */
+.admonition.tip { border-left-color: #00897b; }
