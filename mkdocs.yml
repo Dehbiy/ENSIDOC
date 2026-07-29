@@ -1,0 +1,98 @@
+site_name: Ensidoc
+site_description: >
+  Guide d'etudiant arrivant à l'école
+site_url: https://dehbiy.github.io/ENSIDOC/
+repo_url: https://github.com/dehbiy/ENSIDOC
+repo_name: ENSIDOC
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: fr
+  logo: assets/ensimag-logo.png 
+  favicon: assets/favicon.ico
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Passer en mode sombre
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Passer en mode clair
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.tabs.link
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - announce.dismiss
+
+plugins:
+  - search:
+      lang: fr
+  - tags
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - tables
+  - footnotes
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Accueil: index.md
+  - Démarches administratives:
+    - administrative/index.md
+    - Carte de séjour: administrative/carte-de-sejour.md
+    - Banque: administrative/banque.md
+    - Inscription ENSIMAG: administrative/inscription.md
+    - Exonération des frais: administrative/exoneration.md
+    - Logement (CROUS): administrative/logement.md
+  - Vie étudiante:
+    - vie-etudiante/index.md
+    - Arriver à Grenoble: vie-etudiante/arriver.md
+    - Transports: vie-etudiante/transports.md
+    - Santé & mutuelle: vie-etudiante/sante.md
+  - Cours & scolarité:
+    - cours-scolarite/index.md
+    - Outils numériques: cours-scolarite/outils.md
+  - Associations & BDE:
+    - associations-inp/index.md
+    - BDE: associations-inp/bde.md
+    - Associations étudiantes: associations-inp/associations.md
+    - Bureaux & services: associations-inp/bureaux.md
+  - FAQ: faq/index.md
