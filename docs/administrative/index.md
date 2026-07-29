@@ -11,6 +11,7 @@ Cette section couvre tout ce qu'il faut faire dès ton arrivée en France pour �
 | [Carte de séjour](carte-de-sejour.md) | Dès l'arrivée (< 3 mois) | 🔴 Urgent |
 | [Inscription ENSIMAG](inscription.md) | Avant la rentrée | 🔴 Urgent |
 | [Exonération des frais](exoneration.md) | Selon calendrier école | 🟠 Important |
+| [Banque](banque.md) | Dès l'arrivée | 🟠 Important |
 | [Logement (CROUS)](logement.md) | Avant l'arrivée si possible | 🟠 Important |
 
 !!! warning "Attention aux délais"

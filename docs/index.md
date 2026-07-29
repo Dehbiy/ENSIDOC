@@ -11,7 +11,7 @@ hide:
   <p>Tout ce que tu dois savoir pour bien démarrer à Grenoble</p>
 </div>
 
-Bienvenue ! Ce guide a été créé **par des étudiants, pour des étudiants** — en particulier ceux venant du Maroc et d'autres pays hors UE qui doivent naviguer les démarches administratives françaises en arrivant à l'ENSIMAG.
+Bienvenue ! Ce guide a été créé **par des étudiants, pour des étudiants**
 
 <div class="nav-cards">
   <a class="nav-card" href="administrative/">
@@ -54,8 +54,7 @@ Si tu viens d'arriver (ou que tu arrives bientôt), voici l'ordre recommandé :
 
 !!! tip "Contribuer à ce guide"
     Ce guide est open-source et maintenu par la communauté. Tu as trouvé une info manquante ou périmée ?
-    Clique sur le bouton **✏️ Modifier** en haut de n'importe quelle page pour proposer une correction sur GitHub.
+    Clique sur le bouton **Editer cette page** en haut de n'importe quelle page pour proposer une correction sur GitHub.
 
 ---
 
-*Dernière mise à jour : {{ git.date if git is defined else "voir le dépôt GitHub" }}*

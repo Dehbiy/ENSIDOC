@@ -6,7 +6,7 @@ Merci de vouloir contribuer ! Ce guide est maintenu par la communauté étudiant
 
 ### 1. Corriger une information (le plus simple)
 
-Chaque page du site a un bouton **✏️ Modifier** en haut à droite. Il t'amène directement sur GitHub pour proposer une correction.
+Chaque page du site a un bouton **Editer cette page** en haut à droite. Il t'amène directement sur GitHub pour proposer une correction.
 
 ### 2. Ajouter une nouvelle section ou page
 
