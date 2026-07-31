@@ -1,10 +1,10 @@
 ---
-title: Associations & BdE INP
+title: Associations INP & Bureaux
 ---
 
 # 🤝 Associations
 
 Grenoble INP possède une vie associative très riche. Cette section présente les principaux bureaux et associations.
 
-- [BDE INP](bde.md) — Bureau des Étudiants
+- [Bureaux](bureaux.md) — Bureaux
 - [Associations étudiantes](associations.md) — sport, culture, tech…

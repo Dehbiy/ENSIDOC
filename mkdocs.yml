@@ -90,9 +90,8 @@ nav:
   - Cours & scolarité:
     - cours-scolarite/index.md
     - Outils numériques: cours-scolarite/outils.md
-  - Associations & BDE:
+  - Associations & Bureaux:
     - associations-inp/index.md
-    - BDE: associations-inp/bde.md
+    - Bureaux: associations-inp/bureaux.md
     - Associations étudiantes: associations-inp/associations.md
-    - Bureaux & services: associations-inp/bureaux.md
   - FAQ: faq/index.md

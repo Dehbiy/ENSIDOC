@@ -1,0 +1,23 @@
+.association {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.association-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.association-content {
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .association {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
